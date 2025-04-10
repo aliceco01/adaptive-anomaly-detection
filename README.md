@@ -2,6 +2,9 @@
 
 A production-grade anomaly detection framework built for heterogeneous cloud environments. This project fuses logs, metrics, and traces using hybrid ML models with self-evolving feedback loops for drift adaptation.
 
+![image](https://github.com/user-attachments/assets/82de59ac-52f8-48e4-bbd7-bbd76e748f67)
+
+
 ##  System Overview
 
 This repository includes:

@@ -2,7 +2,6 @@
 
 A production-grade anomaly detection framework built for heterogeneous cloud environments. This project fuses logs, metrics, and traces using hybrid ML models with self-evolving feedback loops for drift adaptation.
 
-![image](https://github.com/user-attachments/assets/82de59ac-52f8-48e4-bbd7-bbd76e748f67)
 
 
 ##  System Overview
@@ -29,7 +28,17 @@ adaptive-anomaly-detection/
 
 ##  Architecture Diagram
 
-See `/architecture/AMMAD_architecture.png`
+![image](https://github.com/user-attachments/assets/82de59ac-52f8-48e4-bbd7-bbd76e748f67)
+
+Data Ingestion: Kafka / Kinesis connects to Prometheus (metrics), ELK (logs), and X-Ray / Jaeger (traces).
+
+Feature Fusion: Aligns telemetry in time, embeds structured logs, normalizes signal strengths.
+
+Model Core: Combines supervised (e.g., SVM, Random Forest) and unsupervised (e.g., Autoencoder, Isolation Forest) learners.
+
+Anomaly Scoring: Produces scores via ensemble voting or hybrid strategies.
+
+Adaptation Loop: Detects drift and retrains models as needed.
 
 ## Getting Started
 

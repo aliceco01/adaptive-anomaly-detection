@@ -2,7 +2,7 @@
 
 A production-grade anomaly detection framework built for heterogeneous cloud environments. This project fuses logs, metrics, and traces using hybrid ML models with self-evolving feedback loops for drift adaptation.
 
-## 🌐 System Overview
+##  System Overview
 
 This repository includes:
 - A full whitepaper-style explanation of the architecture
@@ -12,7 +12,7 @@ This repository includes:
 
 > ⚠️ This system is designed to scale with AWS-native infrastructure (Kafka, Lambda, S3, SageMaker) and integrates into CI/CD with explainable ML outputs.
 
-## 📦 Repo Contents
+##  Repo Contents
 
 ```
 adaptive-anomaly-detection/
@@ -24,11 +24,11 @@ adaptive-anomaly-detection/
 └── LICENSE
 ```
 
-## 📈 Architecture Diagram
+##  Architecture Diagram
 
 See `/architecture/AMMAD_architecture.png`
 
-## 🚀 Getting Started
+## Getting Started
 
 To run the proof-of-concept demo:
 
@@ -39,7 +39,7 @@ python anomaly_detection.py
 
 Outputs anomaly detections over time and saves visualization to `anomaly_detection_results.png`.
 
-## 🔍 Future Work
+##  Future Work
 
 - Transformer fusion layers
 - Cost-aware probabilistic alerting

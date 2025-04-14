@@ -18,8 +18,14 @@ Traditional monitoring systems often fail in complex environments where signals 
 
 ---
 
-## Key Components
+## System Architecture
 
+Below is a high-level diagram of the pipeline architecture:
+
+![Architecture Overview](architecture/overview.png)
+
+
+## Key Components
 **1. Data Simulation**
 - Synthetic telemetry generator (`generate_data.py`)
 - Injects controlled anomalies (e.g., CPU spikes, log bursts, latency surges)

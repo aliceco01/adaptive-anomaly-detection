@@ -36,7 +36,6 @@ This project combines hands-on engineering and applied machine learning using:
 - **matplotlib** – telemetry visualization and anomaly score plots
 - **SHAP** – local and global model explainability
 - **scipy** – FFT-based frequency feature extraction
-- **draw.io** – architecture diagram design
 - (optional/future) **AWS Lambda**, **SageMaker**, and **Kinesis** – for cloud-native deployment
 
 Notebook-driven development ensures transparency, modularity, and reproducibility across each layer of the pipeline.

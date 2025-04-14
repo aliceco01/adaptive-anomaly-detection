@@ -21,8 +21,9 @@ Traditional monitoring systems often fail in complex environments where signals 
 ## System Architecture
 
 Below is a high-level diagram of the pipeline architecture:
+![image](https://github.com/user-attachments/assets/d4375024-a439-499e-86b1-bbaf501b42b8)
 
-![Architecture Overview](architecture/overview.png)
+
 
 
 ## Key Components

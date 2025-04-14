@@ -24,6 +24,21 @@ Below is a high-level diagram of the pipeline architecture:
 ![image](https://github.com/user-attachments/assets/d4375024-a439-499e-86b1-bbaf501b42b8)
 
 
+## Technology Stack
+
+This project combines hands-on engineering and applied machine learning using:
+
+- **Python 3.10**
+- **Jupyter Notebooks** – for interactive experimentation and step-by-step modeling
+- **scikit-learn** – Isolation Forest, preprocessing, ensemble modeling
+- **pandas, NumPy** – time series simulation, transformations
+- **matplotlib** – telemetry visualization and anomaly score plots
+- **SHAP** – local and global model explainability
+- **scipy** – FFT-based frequency feature extraction
+- **draw.io** – architecture diagram design
+- (optional/future) **AWS Lambda**, **SageMaker**, and **Kinesis** – for cloud-native deployment
+
+Notebook-driven development ensures transparency, modularity, and reproducibility across each layer of the pipeline.
 
 
 ## Key Components
